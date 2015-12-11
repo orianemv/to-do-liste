@@ -1,0 +1,84 @@
+body {
+	font-size: 20px;
+	font-family: helvetica;
+	color: #616161;
+	background-color: white;
+	/*width: 800px;
+	margin: auto;*/
+	text-align: center;
+}
+
+
+h2 {
+	font-size: 59px;
+	color: #616161;
+	letter-spacing: 0.95em;
+	text-align: center;
+	text-shadow: 6px 5px #dcedc8;
+}
+
+#plop input {
+	display: block;
+	width: 50.8%;
+	height: 45px;
+	margin: auto;
+	margin-top: 62px;
+	margin-bottom: 02px;
+	font-style: italic;
+	border: 0px;
+	font-size: 20px;
+	text-align: center;
+	background-color: #dcedc8;
+	border-radius: 07px;
+	color: #757575;
+}
+
+ul{
+	width: 45%;
+	/*margin: 0%;*/
+	padding: 03%;
+	margin: auto;
+	background-color: #dcedc8;
+	border-radius: 10px;
+	list-style-type: none;
+	font-style: italic;
+	border-bottom: 1px solid white;
+
+
+}
+
+.liste {
+	border-bottom: 1px solid white;
+	margin: 20px;
+}
+
+
+.liste :note{	
+	
+	text-align: center;
+}
+
+
+.clicbox {
+	float: left;
+}
+
+.boutonefface{
+	float: right;
+	border-radius: 30px;	
+	font-size: 10px;
+}
+
+.boutonfoot {
+	margin: 2%;
+	border-radius: 30px;
+	box-shadow: 7px 5px #dcedc8;
+}
+
+.barre {
+	text-decoration: line-through white;
+}
+
+#restant {
+	font-size: 15px;
+}
