@@ -45,14 +45,14 @@ $(document).ready(function() {
 
 
 
-		function compteur() {
+	function compteur() {
 		var compt =$('.liste:not(.barre)').length;
-			if (compt<=1){
-				$('.restant').html("il reste" + " " + compt + " " + "todo à faire");
-			}	
-			else{
-				$('.restant').html("il reste" + " " + compt + " "  + "todos à faire");
-			}
+		if (compt<=1){
+			$('.restant').html("il reste" + " " + compt + " " + "todo à faire");
+		}	
+		else{
+			$('.restant').html("il reste" + " " + compt + " "  + "todos à faire");
+		}
 
 	};
 
